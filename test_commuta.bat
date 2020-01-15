@@ -1,1 +1,0 @@
-py "C:\Users\Mateu Camps\Dropbox\Projectes\Python\kramer-radio\main.py" -p COM3 -b 9600 -i 1 -o 16
