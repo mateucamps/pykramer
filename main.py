@@ -12,7 +12,7 @@ args = parser.parse_args()
 
 ser = serial.Serial(args.p, 9600)
 print('Port: ' + ser.name)
-print('Baud: ' + 9600)
+print('Baud: ' + str(9600))
 
 cmd = paquet(args.i, args.o)
 nbytes = ser.write(cmd)
